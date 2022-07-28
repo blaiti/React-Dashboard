@@ -6,7 +6,6 @@ React Dashboard is an admin template dashboard based on React.
 
 ![wallpaper](https://user-images.githubusercontent.com/32510139/181222985-edf4fc1f-5656-4c51-951e-eacd10a6357e.jpg)
 
-
 ## Table of Contents
 
 - [Tech Stack](#tech-stack)
@@ -59,34 +58,34 @@ Within the download you'll find the following directories and files:
 ```bash
 React-Dashboard
 .
+├── package.json
+├── package_lock.json
 ├── public
 │   ├── favicon.ico
 │   ├── index.html
 │   ├── manifest.json
 │   └── robots.txt
-├── src
-│   ├── assets
-│   │   ├── icons
-│   │   │   ├── cash.svg
-│   │   │   ├── dashboard.svg
-│   │   │   ├── location.svg
-│   │   │   ├── logout.svg
-│   │   │   └── user.svg
-│   │   └── images
-│   │       └── white-logo.png
-│   ├── components
-│   │   ├── SideBar
-│   │   │   ├── index.jsx
-│   │   │   ├── sidebar-item.jsx
-│   │   │   └── styles.css
-│   ├── constants
-│   │   └── sidebar-menu.js
-│   ├── App.css
-│   ├── App.jsx
-│   ├── index.css
-│   └── index.jsx
-├── package.json
-├── package_lock.json
+└── src
+    ├── App.css
+    ├── App.jsx
+    ├── index.css
+    ├── index.jsx
+    ├── assets
+    │   ├── icons
+    │   │   ├── cash.svg
+    │   │   ├── dashboard.svg
+    │   │   ├── location.svg
+    │   │   ├── logout.svg
+    │   │   └── user.svg
+    │   └── images
+    │       └── white-logo.png
+    ├── components
+    │   ├── SideBar
+    │   │   ├── index.jsx
+    │   │   ├── sidebar-item.jsx
+    │   │   └── styles.css
+    └── constants
+        └── sidebar-menu.js
 ```
 
 ## Author

@@ -1,6 +1,6 @@
 import DashboardIcon from '../assets/icons/dashboard.svg';
-import CashIcon from '../assets/icons/cash.svg';
-import LocationIcon from '../assets/icons/location.svg';
+import ShippingIcon from '../assets/icons/shipping.svg';
+import ProductIcon from '../assets/icons/product.svg';
 import UserIcon from '../assets/icons/user.svg';
 
 const sidebar_menu = [
@@ -12,15 +12,15 @@ const sidebar_menu = [
     },
     {
         id: 2,
-        icon: CashIcon,
-        path: '/payments',
-        title: 'Payments',
+        icon: ProductIcon,
+        path: '/orders',
+        title: 'Orders',
     },
     {
         id: 3,
-        icon: LocationIcon,
-        path: '/locations',
-        title: 'Locations',
+        icon: ShippingIcon,
+        path: '/products',
+        title: 'Products',
     },
     {
         id: 4,
