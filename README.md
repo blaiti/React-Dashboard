@@ -4,7 +4,8 @@
 
 React Dashboard is an admin template dashboard based on React.
 
-![wallpaper](https://user-images.githubusercontent.com/32510139/181222985-edf4fc1f-5656-4c51-951e-eacd10a6357e.jpg)
+![React-Dashboard](https://user-images.githubusercontent.com/32510139/181506432-dd67d4cc-31ae-40d6-8415-29b111e247b5.gif)
+
 
 ## Table of Contents
 
@@ -72,20 +73,35 @@ React-Dashboard
     ├── index.jsx
     ├── assets
     │   ├── icons
-    │   │   ├── cash.svg
+    │   │   ├── cancel.svg
     │   │   ├── dashboard.svg
-    │   │   ├── location.svg
+    │   │   ├── done.svg
     │   │   ├── logout.svg
+    │   │   ├── notification.svg
+    │   │   ├── product.svg
+    │   │   ├── refunded.svg
+    │   │   ├── settings.svg
+    │   │   ├── shipping.svg
     │   │   └── user.svg
     │   └── images
     │       └── white-logo.png
     ├── components
-    │   ├── SideBar
+    │   ├── DashboardHeader
     │   │   ├── index.jsx
-    │   │   ├── sidebar-item.jsx
     │   │   └── styles.css
-    └── constants
-        └── sidebar-menu.js
+    │   └── SideBar
+    │       ├── index.jsx
+    │       ├── sidebar-item.jsx
+    │       └── styles.css
+    ├── constants
+    │   ├── orders.js
+    │   └── sidebar-menu.js
+    ├── pages
+    │   ├── Orders
+    │   │   └── index.jsx
+    │   └── styles.css
+    └── utils
+        └── table-pagination.js
 ```
 
 ## Author
@@ -94,4 +110,4 @@ React-Dashboard
 
 ## License
 
-[MIT](https://github.com/blaiti/Chaty/blob/main/LICENSE)
+[MIT](https://github.com/blaiti/React-Dashboard/blob/main/LICENSE)
